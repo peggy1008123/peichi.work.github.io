@@ -11,12 +11,7 @@
 a:hover, a:visited, a:link, a:active {
 text-decoration: none;
 }
-@font-face {
-  font-family: 'Allerta Stencil';
 
-  font-weight: normal; /* 根据需要设置字体的粗细 */
-  font-style: normal; /* 根据需要设置字体的样式 */
-}
 
 .body_container {
   /* 隐藏内容，设置为透明 */
