@@ -87,3 +87,4 @@ window.addEventListener('load', function() {
     content.style.opacity = '1';
   }, 300); // 这里模拟了2秒的延迟，实际上应该根据实际加载情况调整
 });
+

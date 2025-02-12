@@ -123,3 +123,23 @@ window.addEventListener('load', function() {
     content.style.opacity = '1';
   }, 300); // 这里模拟了2秒的延迟，实际上应该根据实际加载情况调整
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  ScrollReveal().reveal('.overview_imgwidth', {
+      delay: 200,          // 延遲 300 毫秒後顯示
+      duration: 1000,      // 動畫持續 1000 毫秒
+      origin: 'bottom',    // 從底部出現
+      distance: '50px',    // 移動 50px
+      easing: 'ease-in-out', // 平滑動畫
+      reset: false         // 滾動回去時是否重置動畫（true = 每次滾動都重新觸發）
+  });
+  ScrollReveal().reveal('.research_percent', {
+    delay: 200,          // 延遲 300 毫秒後顯示
+    duration: 1000,      // 動畫持續 1000 毫秒
+    origin: 'bottom',    // 從底部出現
+    distance: '50px',    // 移動 50px
+    easing: 'ease-in-out', // 平滑動畫
+    reset: false         // 滾動回去時是否重置動畫（true = 每次滾動都重新觸發）
+  });
+});
+
